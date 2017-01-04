@@ -1,10 +1,11 @@
 // ==========================================================================
-// Text wrap
+// Text Wrap Utility
 // ==========================================================================
+
 /*doc
 ---
 title: Text wrap
-name: 10_wrap_text
+name: text_wrap
 category: utilities
 ---
 
@@ -16,7 +17,7 @@ This utility wraps text in a container, useful for long strings like email addre
 */
 
 @mixin text-wrap(){
-    word-wrap: break-word; 
+    word-wrap: break-word;
     hyphens: auto;
 }
 
