@@ -18,5 +18,8 @@
     "url": "https://github.com/mise-en-place/utilities.text-wrap.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.text-wrap": "github:mise-en-place/tools.text-wrap"
+  }
 }

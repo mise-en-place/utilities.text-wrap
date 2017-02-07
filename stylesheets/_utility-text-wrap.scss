@@ -16,7 +16,7 @@ This utility wraps text in a container, useful for long strings like email addre
 ```
 */
 
-@import './mixins';
+@import "tool-text-wrap";
 
 .u-text-wrap {
     @include text-wrap();
